@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Vehicle Service Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+        }
+        h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Admin Dashboard</h1>
+    </header>
+
+    <nav>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+        <a href="services.html">Services</a>
+        <a href="booking.html">Book Service</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="index.html">Home</a>
+    </nav>
+
+    <section>
+        <h2>Manage Users and Services</h2>
+
+        <!-- Example Table for Admin to View Registered Users -->
+        <h3>Registered Users</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>User ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td>john.doe@example.com</td>
+                    <td>+1 234 567 890</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+                <!-- More rows can be added dynamically -->
+            </tbody>
+        </table>
+
+        <!-- Example Table for Admin to View Booked Services -->
+        <h3>Booked Services</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Booking ID</th>
+                    <th>User Name</th>
+                    <th>Service</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>101</td>
+                    <td>Jane Smith</td>
+                    <td>Vehicle Repair</td>
+                    <td>2024-09-11</td>
+                    <td>Completed</td>
+                </tr>
+                <!-- More rows can be added dynamically -->
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vehicle Service Management. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
